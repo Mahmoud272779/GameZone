@@ -1,5 +1,12 @@
+using GameZone.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("GameZoneConnection");
+builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer(connectionString ));
+
+//hth
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
