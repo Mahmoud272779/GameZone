@@ -1,6 +1,12 @@
-﻿namespace GameZone.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace GameZone.Data
 {
-    public class AppDbContext
+    public class AppDbContext:DbContext
     {
+        public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions):base(dbContextOptions) {
+       
+        }
+       
     }
 }
