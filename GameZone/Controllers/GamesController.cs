@@ -18,7 +18,7 @@ namespace GameZone.Controllers
         {
             return View();
         }
-
+		[HttpGet]
         public IActionResult Create()
         {
             var cats= _context.Categories.ToList();
@@ -32,5 +32,12 @@ namespace GameZone.Controllers
 
 			return View(model);
         }
-    }
+
+		[HttpPost]
+		public IActionResult Create(CreateGameFormViewModel m)
+		{
+			
+			return View();
+		}
+	}
 }

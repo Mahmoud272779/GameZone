@@ -9,7 +9,7 @@
 	 Add new Game
 </h5>
 
-<form asp-controller="Games">
+<form asp-controller="Games" enctype="multipart/form-data">
 
 	<div class="row" >
 
@@ -51,6 +51,8 @@
 			
 				<span asp-validation-for="Name" class="text-danger"></span>
 			</div>
+
+			<button type="submit" class="btn btn-light text-black mt-4">Save</button>
 
 		</div>
 		<div class="col-md-6"></div>
