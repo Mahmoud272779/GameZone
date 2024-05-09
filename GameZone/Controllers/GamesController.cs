@@ -36,8 +36,15 @@ namespace GameZone.Controllers
 		[HttpPost]
 		public IActionResult Create(CreateGameFormViewModel m)
 		{
+			if (!ModelState.IsValid)
+			{
+				m.Devices = _context.Devices.ToList().Select(c => new SelectListItem(value: c.Id.ToString(), text: c.Name)).OrderBy(c => c.Text).ToList();
+
+				m.Categories = _context.Categories.ToList().Select(c => new SelectListItem(value: c.Id.ToString(), text: c.Name)).OrderBy(c => c.Text).ToList();
+				return View(m);
+			}
+			return RedirectToAction(nameof(Index));
 			
-			return View();
 		}
 	}
 }
