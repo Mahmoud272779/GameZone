@@ -12,6 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(opt=>opt.UseSqlServer(connectionStri
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IDeviceService,DeviceService>();
+builder.Services.AddScoped<IGameService, GameService>();
 
 var app = builder.Build();
 

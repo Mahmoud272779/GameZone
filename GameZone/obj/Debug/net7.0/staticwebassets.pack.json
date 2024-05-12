@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\GameZone.bundle.scp.css"
     },
     {
+      "Id": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\System.Func`1[System.Guid].jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\System.Func`1[System.Guid].jpg"
+    },
+    {
+      "Id": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\e70a4de9-3c83-4b55-be66-71c63e4bd5f3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\e70a4de9-3c83-4b55-be66-71c63e4bd5f3.jpg"
+    },
+    {
       "Id": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },

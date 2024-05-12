@@ -11,12 +11,14 @@ namespace GameZone.Controllers
         private readonly AppDbContext _context;
 		private readonly ICategoryService _categoryService;
 		private readonly IDeviceService _deviceService;
+		private readonly IGameService _gameService;
 
-		public GamesController(AppDbContext context, ICategoryService categoryService, IDeviceService deviceService)
+		public GamesController(AppDbContext context, ICategoryService categoryService, IDeviceService deviceService, IGameService gameService)
 		{
 			_context = context;
 			_categoryService = categoryService;
 			_deviceService = deviceService;
+			_gameService = gameService;
 		}
 
 		public IActionResult Index()
@@ -37,7 +39,7 @@ namespace GameZone.Controllers
         }
 
 		[HttpPost]
-		public IActionResult Create(CreateGameFormViewModel m)
+		public async Task< IActionResult> Create(CreateGameFormViewModel m)
 		{
 			if (!ModelState.IsValid)
 			{
@@ -46,6 +48,9 @@ namespace GameZone.Controllers
 				m.Devices = _deviceService.GetListOfDevices();
 				return View(m);
 			}
+
+			await _gameService.Create(m);
+
 			return RedirectToAction(nameof(Index));
 			
 		}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NyN4Pp73hDneZvD3ZImPOWdn48o0b/aGwg6Kjr0XZsY=",
+  "Hash": "04BqPVJJF88sJO/GQrAqE8ZY2migWnf9ktSdOGqM5k0=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\MVC\\GameZone\\GameZone\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GameZone.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\e70a4de9-3c83-4b55-be66-71c63e4bd5f3.jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/images/games/e70a4de9-3c83-4b55-be66-71c63e4bd5f3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\games\\e70a4de9-3c83-4b55-be66-71c63e4bd5f3.jpg"
+    },
+    {
+      "Identity": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\System.Func`1[System.Guid].jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/images/games/System.Func`1[System.Guid].jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\games\\System.Func`1[System.Guid].jpg"
     },
     {
       "Identity": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\css\\bootstrap.min.css",
