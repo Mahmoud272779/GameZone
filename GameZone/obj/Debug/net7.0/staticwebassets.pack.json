@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\GameZone.bundle.scp.css"
     },
     {
+      "Id": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\957efae0-5f5c-4b0f-aa6a-fd1adf78f1b5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\957efae0-5f5c-4b0f-aa6a-fd1adf78f1b5.jpg"
+    },
+    {
       "Id": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\System.Func`1[System.Guid].jpg",
       "PackagePath": "staticwebassets\\assets\\images\\games\\System.Func`1[System.Guid].jpg"
+    },
+    {
+      "Id": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\be9fc91e-c41a-4fd0-b579-3158c7e9e3ca.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\games\\be9fc91e-c41a-4fd0-b579-3158c7e9e3ca.jpg"
     },
     {
       "Id": "D:\\MVC\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\e70a4de9-3c83-4b55-be66-71c63e4bd5f3.jpg",

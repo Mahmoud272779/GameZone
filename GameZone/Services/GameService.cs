@@ -34,7 +34,7 @@ namespace GameZone.Services
 
 		private async Task<string> saveCover(IFormFile cover) 
 		{
-			var coverName = $"{Guid.NewGuid()}{Path.GetExtension(cover.FileName)}";
+			var coverName = $"{DateTime.Now.DayOfWeek}{Guid.NewGuid()}{Path.GetExtension(cover.FileName)}";
 			var path = Path.Combine(_imagesPath,coverName);
 
 			using var stream = File.Create(path);
