@@ -14,6 +14,7 @@ namespace GameZone.Data
         public DbSet<Device> Devices { get; set; }
         public DbSet<GameDevice> GameDevices { get; set; }
         public DbSet<MigMain> migMains { get; set; }
+        public DbSet<Branch1> branch1s { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
