@@ -10,7 +10,8 @@
 *.userosscache
 *.cache
 *.sln.docstates
-
+.AssemblyInfo.cs
+.AssemblyInfoInputs.cache
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -18,6 +19,7 @@
 mono_crash.*
 
 # Build results
+.vs/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
