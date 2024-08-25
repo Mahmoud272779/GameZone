@@ -72,5 +72,6 @@ D:\MVC\GameZone\GameZone\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing
 D:\MVC\GameZone\GameZone\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\MVC\GameZone\GameZone\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\MVC\GameZone\GameZone\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\MVC\GameZone\GameZone\obj\Debug\net7.0\GameZone.csproj.CopyComplete
 D:\MVC\GameZone\GameZone\bin\Debug\net7.0\libman.json
+D:\MVC\GameZone\GameZone\obj\Debug\net7.0\GameZone.sourcelink.json
+D:\MVC\GameZone\GameZone\obj\Debug\net7.0\GameZone.csproj.Up2Date

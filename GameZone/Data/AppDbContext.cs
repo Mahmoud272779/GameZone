@@ -13,6 +13,7 @@ namespace GameZone.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Device> Devices { get; set; }
         public DbSet<GameDevice> GameDevices { get; set; }
+        public DbSet<MigMain> migMains { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
